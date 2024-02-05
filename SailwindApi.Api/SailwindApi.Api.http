@@ -1,0 +1,6 @@
+@SailwindApi.Api_HostAddress = http://localhost:5147
+
+GET {{SailwindApi.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
