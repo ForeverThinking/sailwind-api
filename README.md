@@ -4,25 +4,37 @@
 Six endpoints to convert between gold and the three major currencies.
 
 ```csharp
-POST /GoldToCrowns?gold={value: double}
+POST Currency/GoldToCrowns?gold={value: double}
 ```
 
 ```csharp
-POST /GoldToLions?gold={value: double}
+POST Currency/GoldToLions?gold={value: double}
 ```
 
 ```csharp
-POST /GoldToDragons?gold={value: double}
+POST Currency/GoldToDragons?gold={value: double}
 ```
 
 ```csharp
-POST /CrownsToGold?crowns={value: double}
+POST Currency/CrownsToGold?crowns={value: double}
 ```
 
 ```csharp
-POST /LionsToGold?lions={value: double}
+POST Currency/LionsToGold?lions={value: double}
 ```
 
 ```csharp
-POST /DragonsToGold?dragons={value: double}
+POST Currency/DragonsToGold?dragons={value: double}
+```
+
+## Voyage
+Two endpoints; one to add a navigation reading (lat, long) and one to retrieve all the readings
+
+```csharp
+GET Voyage/GetLocations
+```
+
+```csharp
+POST Voyage/AddLocation
+body { latitude: double, longitude: double}
 ```
