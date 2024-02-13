@@ -20,6 +20,7 @@ services:
     image: postgres
     restart: always
     volumes:
+      - ./init-db:/docker-entrypoint-initdb.d
       - db-data:/var/lib/postgresql/data
     environment:
       - POSTGRES_PASSWORD=postgres
@@ -36,7 +37,6 @@ services:
 
 volumes:
   db-data:
-
 
 networks:
   sailwind-network:
