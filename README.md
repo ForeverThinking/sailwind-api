@@ -1,3 +1,6 @@
+[![Docker Image CI](https://github.com/ForeverThinking/sailwind-api/actions/workflows/docker-image.yml/badge.svg)](https://github.com/ForeverThinking/sailwind-api/actions/workflows/docker-image.yml)
+[![.NET](https://github.com/ForeverThinking/sailwind-api/actions/workflows/dotnet.yml/badge.svg)](https://github.com/ForeverThinking/sailwind-api/actions/workflows/dotnet.yml)
+
 # A Simple API Based Off The Game Sailwind
 
 ## Currency
